@@ -21,10 +21,13 @@ function searchNumber(numeros) {
   let i = 0;
 
   while (i < 6) {
-    let aleatorio = Math.floor(getRandom() * 61);
+    let aleatorio = Math.floor(getRandom() * numeros.length);
+    let newNumber = numeros[aleatorio];
 
-    if (result[i] !== aleatorio) {
-      result.push(aleatorio);
+    console.log(result.indexOf(newNumber));
+
+    if (result.indexOf(newNumber) < 0) {
+      result.push(newNumber);
       i++;
     }
   }
