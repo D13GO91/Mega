@@ -1,13 +1,13 @@
-const number = [];
-const moreShow = [
+const numerosDaMega = [];
+const maisSorteadosMV = [
   02, 11, 17, 18, 22, 33, 34, 35, 37, 38, 40, 41, 42, 51, 53, 56, 58, 22,
 ];
-const neverShow = [
+const nuncaSorteadosMV = [
   02, 11, 17, 18, 22, 33, 34, 35, 37, 38, 40, 41, 42, 51, 53, 56, 58, 22,
 ];
 
 for (i = 0; i < 60; i++) {
-  number[i] = i + 1;
+  numerosDaMega[i] = i + 1;
 }
 
 function getRandom() {
@@ -34,4 +34,4 @@ function searchNumber(numeros) {
   return result;
 }
 
-console.log(searchNumber(number));
+console.log(searchNumber(numerosDaMega));
