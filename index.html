@@ -20,8 +20,8 @@
     <div class="header">
       <h1 class="title">MegaSorte</h1>
       <div class="acesso">
-        <div class="login">Login</div>
-        <div class="cadastro">Cadastre-se</div>
+        <div class="login botton">Login</div>
+        <div class="cadastro botton">Cadastre-se</div>
       </div>
     </div>
     <nav>
@@ -38,9 +38,21 @@
 
     <section class="sortear">
       <div class="regras">
-        //select the game
+        <h2>Seleciona como quer sortear os números:</h2>
+        
+        <input type="radio" id="allNumbers" name="selectDrawn" value="allNumbers" checked>
+        <label for="allNumbers">De 0 - 60</label>
+        
+        <input type="radio" id="mostLuck" name="selectDrawn" value="mostLuck">
+        <label for="mostLuck">Mais sorteados</label>
+        
+        <input type="radio" id="lessLuck" name="selectDrawn" value="lessLuck">
+        <label for="lessLuck">Menos sorteados</label>
+        
+        <input type="radio" id="joinRules" name="selectDrawn" value="lessLuck">
+        <label for="lessLuck">Mistura de mais e menos sorteados</label>
 
-        //all numbers|| most luck || less luck || join rules
+        <!-- //all numbers|| most luck || less luck || join rules -->
       </div>
       <div class="balls">
         // put the numbers on the screen

@@ -80,6 +80,11 @@ body {
   border-radius: 0 0 5px 5px;
 }
 
+.botton:hover {
+  background-color: var(--base-color-alt);
+  cursor: pointer;
+}
+
 nav ul {
   display: flex;
   justify-content: space-around;
@@ -89,4 +94,16 @@ nav ul {
 
 nav a{
   color: var(--text-color);
+  padding: 3px 6px;
+  border-radius: 0 0 7px 7px;
+}
+
+nav a:hover{
+  background-color: var(--base-color-second);
+
+}
+
+.sortear {
+  margin-top: 10px;
+  padding: 0 15px;
 }
